@@ -7,12 +7,12 @@ import '@/styles/tailwind.css'
 
 export const metadata: Metadata = {
   title: {
-    template: '%s - Saikyo',
+    template: '%s - Aymane',
     default:
-      'Saikyo - Software developer, music producer',
+      'Aymane - Software developer',
   },
   description:
-    'I\'m Saikyo, By day I code web wonders, by night I make club bangers',
+    'I\'m Aymane, I\'m an IT engineering student',
   alternates: {
     types: {
       'application/rss+xml': `${process.env.NEXT_PUBLIC_SITE_URL}/feed.xml`,

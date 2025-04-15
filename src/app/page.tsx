@@ -192,36 +192,36 @@ function Resume() {
       company: 'Digisystems & services',
       title: 'Full stack developer',
       logo: logoPlanetaria,
-      start: '2023',
+      start: '07/2023',
       end: {
-        label: 'Present',
+        label: '09/2023',
         dateTime: new Date().getFullYear().toString(),
       },
     },
-    {
-      company: 'Tamkine foundation',
-      title: 'Web developer',
-      logo: logoAirbnb,
-      start: '2021',
-      end: '2022',
-    },
-    {
-      company: 'Poste Maroc',
-      title: 'ASP.NET developer',
-      logo: logoFacebook,
-      start: '2018',
-      end: '2019',
-    },
-    {
-      company: 'Fiverr',
-      title: 'Music producer & sound designer',
-      logo: logoStarbucks,
-      start: '2017',
-      end: {
-        label: 'Present',
-        dateTime: new Date().getFullYear().toString(),
-      },
-    },
+    // {
+    //   company: 'Tamkine foundation',
+    //   title: 'Web developer',
+    //   logo: logoAirbnb,
+    //   start: '2021',
+    //   end: '2022',
+    // },
+    // {
+    //   company: 'Poste Maroc',
+    //   title: 'ASP.NET developer',
+    //   logo: logoFacebook,
+    //   start: '2018',
+    //   end: '2019',
+    // },
+    // {
+    //   company: 'Fiverr',
+    //   title: 'Music producer & sound designer',
+    //   logo: logoStarbucks,
+    //   start: '2017',
+    //   end: {
+    //     label: 'Present',
+    //     dateTime: new Date().getFullYear().toString(),
+    //   },
+    // },
   ]
   
   
@@ -237,7 +237,7 @@ function Resume() {
           <Role key={roleIndex} role={role} />
         ))}
       </ol>
-      <Button variant="secondary" className="group mt-6 w-full" href="https://drive.google.com/file/d/113Gx8Lc1Odr4W-mKiQ9tqd_m0wRDR-Qc/view?usp=sharing" target='_blank'>
+      <Button variant="secondary" className="group mt-6 w-full" href="https://drive.google.com/file/d/14IAOItiC_3AXu95UdsJwE8En7cgQNzNl/view?usp=drive_link" target='_blank'>
         Download CV
         <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
       </Button>
@@ -254,25 +254,25 @@ export default async function Home() {
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-            Full stack developer & music producer
+            Full stack developer
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-          I’m Hicham, also known as Saikyo, a full-stack developer and music producer based in Morocco. As a passionate developer, I craft innovative web solutions and enjoy blending my technical skills with my love for music production, creating a unique synergy in both fields.
+          I'm an IT engineering student passionate about using technology to shape the future and simplify lives. I focus on building creative, functional solutions that turn challenges into opportunities. Every project helps me grow and make a meaningful impact—it's a continuous journey of learning and improvement.
           </p>
           <div className="mt-6 flex gap-6">
             
-            <SocialLink
+            {/* <SocialLink
               href="https://www.instagram.com/yaa.its_saikyo/"
               aria-label="Follow on Instagram"
               icon={InstagramIcon}
-            />
+            /> */}
             <SocialLink
-              href="https://github.com/HichamHaddadi1"
+              href="https://github.com/N-Aymane"
               aria-label="Follow on GitHub"
               icon={GitHubIcon}
             />
             <SocialLink
-              href="https://www.linkedin.com/in/hicham-haddadi/"
+              href="https://www.linkedin.com/in/aymane-naouri-716545246/"
               aria-label="Follow on LinkedIn"
               icon={LinkedInIcon}
             />
