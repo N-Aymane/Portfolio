@@ -257,7 +257,7 @@ export default async function Home() {
             Full stack developer
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-          I'm an IT engineering student passionate about using technology to shape the future and simplify lives. I focus on building creative, functional solutions that turn challenges into opportunities. Every project helps me grow and make a meaningful impact—it's a continuous journey of learning and improvement.
+          I’m an IT engineering student passionate about using technology to shape the future and simplify lives. I focus on building creative, functional solutions that turn challenges into opportunities. Every project helps me grow and make a meaningful impact—it’s a continuous journey of learning and improvement.
           </p>
           <div className="mt-6 flex gap-6">
             

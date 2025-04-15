@@ -64,7 +64,7 @@ export default function About() {
           </h1>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
             <p>
-            As a passionate IT engineering student, I believe technology is more than just code—it's a powerful tool to shape the future and simplify lives.            </p>
+            As a passionate IT engineering student, I believe technology is more than just code—it’s a powerful tool to shape the future and simplify lives.            </p>
             <p>
             I strive to develop innovative solutions that merge creativity with functionality, turning challenges into opportunities for digital transformation.            </p>
             <p>
