@@ -198,30 +198,30 @@ function Resume() {
         dateTime: new Date().getFullYear().toString(),
       },
     },
-    {
-      company: 'Tamkine foundation',
-      title: 'Web developer',
-      logo: logoAirbnb,
-      start: '2021',
-      end: '2022',
-    },
-    {
-      company: 'Poste Maroc',
-      title: 'ASP.NET developer',
-      logo: logoFacebook,
-      start: '2018',
-      end: '2019',
-    },
-    {
-      company: 'Fiverr',
-      title: 'Music producer & sound designer',
-      logo: logoStarbucks,
-      start: '2017',
-      end: {
-        label: 'Present',
-        dateTime: new Date().getFullYear().toString(),
-      },
-    },
+    // {
+    //   company: 'Tamkine foundation',
+    //   title: 'Web developer',
+    //   logo: logoAirbnb,
+    //   start: '2021',
+    //   end: '2022',
+    // },
+    // {
+    //   company: 'Poste Maroc',
+    //   title: 'ASP.NET developer',
+    //   logo: logoFacebook,
+    //   start: '2018',
+    //   end: '2019',
+    // },
+    // {
+    //   company: 'Fiverr',
+    //   title: 'Music producer & sound designer',
+    //   logo: logoStarbucks,
+    //   start: '2017',
+    //   end: {
+    //     label: 'Present',
+    //     dateTime: new Date().getFullYear().toString(),
+    //   },
+    // },
   ]
   
   
